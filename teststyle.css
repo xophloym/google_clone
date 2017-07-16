@@ -1,4 +1,91 @@
 * {
-  color: #baff00; font-size: 100px; background-color: #009;
-  letter-spacing: 10px;
+  text-decoration: none; color: black; font-family: arial; margin:0; padding: 0;
+}
+
+.searchBar {
+  position: absolute; top: 35%; left: 35%;
+}
+
+#textBar {
+  width: 170%; height: 30px; position: absolute; right: -37%;
+  top: 120%; font-size: 16px;
+}
+
+.topBar {
+  position: absolute; top: 3%; left: 80%; min-width: 100px;
+}
+
+.basicFont {
+  opacity: .75; font-size: small; word-spacing:20px;
+}
+
+.under :hover {
+  text-decoration: underline;
+}
+
+#nineBox {
+  max-width: 25px; max-height: 25px;
+}
+
+li {
+  display: inline;
+}
+
+footer {
+  background-color: #F1F1F1; right: 0; bottom: 0; left: 0;
+  position: absolute; border-top: solid 1px #e4e4e4;
+}
+
+footer ul {
+     list-style-type: none; padding: 15px;
+ }
+
+ .barLeft {
+    float: left;
+    margin-left: 15px;
+ }
+ .barRight {
+    float: right;
+    margin-right: 15px;
+ }
+
+button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 35px;
+}
+
+.buttonHOV :hover {
+  color:black;
+}
+
+#searchButton {
+  position:absolute; top:160%; left:0%;
+}
+
+#luckyButton {
+  position:absolute; top:160%; left:51%; width: 150px;
+}
+
+#googMic {
+  height:23px; position:absolute; top:125%; left:125%;
+}
+
+#signIn {
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: #4285f4;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  color:white;
 }
